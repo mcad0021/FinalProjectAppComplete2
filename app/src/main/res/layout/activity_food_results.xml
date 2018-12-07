@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchFoodActivity">
+
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Result"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <!--<ProgressBar-->
+        <!--android:id="@+id/search_progress"-->
+        <!--style="?android:attr/progressBarStyleHorizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:visibility="visible" />-->
+
+    <TextView
+        android:id="@+id/food_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/food_nutrients"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="-70dp"
+        android:text="@string/food"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/food_nutrients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/nutrients"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/food_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/category"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/food_category_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="200dp"
+        android:text="@string/categoryLabel"
+        android:textColor="@color/colorPrimary" />
+
+</RelativeLayout>

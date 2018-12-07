@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/info_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never|ifRoom"
+        android:title="@string/info_menu" />
+
+    <!--<item-->
+        <!--android:id="@+id/title"-->
+        <!--android:orderInCategory="102"-->
+        <!--android:showAsAction="ifRoom|always"-->
+        <!--android:title="@string/app_name" />-->
+
+    <item android:id="@+id/launch_food_app"
+        android:title="@string/launch_food"
+        android:icon="@drawable/food"
+        android:orderInCategory="101"
+        android:showAsAction="always"/>
+
+    <item android:id="@+id/launch_movie_app"
+        android:title="@string/launch_movie"
+        android:icon="@drawable/movie"
+        android:orderInCategory="101"
+        android:showAsAction="always"/>
+
+</menu>

@@ -1,0 +1,53 @@
+<resources>
+    <string name="movie_app">Movie Information</string>
+    <string name="search_hint_movie"> Enter a movie title here </string>
+    <string name="app_label">Movie Information</string>
+    <string name="movie_enter">Movie: </string>
+    <string name="moviesList">Popular Movies</string>
+    <string name="movie_title">Movie Title: </string>
+    <string name="movie_year">Movie Year: </string>
+    <string name="movie_rating">Movie Age Rating: </string>
+    <string name="movie_author">App by Malcolm Tsai</string>
+    <string name="movie_actors">Movie Actors: </string>
+    <string name="movie_plot">Movie Plot: </string>
+    <string name="movie_info">MOVIE INFO </string>
+    <string name="help_title">Help</string>
+    <string name="help">Help</string>
+    <string name="Author_Name">Malcolm Tsai</string>
+    <string name="Search_Result">Search Result</string>
+    <string name="help_message1">Enter a movie into the search bar and then press the button.</string>
+    <string name="version">Version 1.00</string>
+    <string name="help_message2">Press on poster to save movie. Scroll throw movie listing to view movie information. Press the favourites button to view saved movies.</string>
+    <string name="save_message">Save this movie?</string>
+    <string name="movie_save">Save</string>
+    <string name="save">Save</string>
+    <string name="exit">exit</string>
+    <string name="favourites">Favourites</string>
+    <string name="movie">Movie Information</string>
+    <string name="year">Year: </string>
+    <string name="rating">Rating: </string>
+    <string name="actors">Actors: </string>
+    <string name="plot">Plot: </string>
+    <string name="poster_url">Poster URL: </string>
+    <string name="error">Cannot search when search is blank</string>
+    <string name="results">Results</string>
+	<string name="app_name">FinalProjectApp</string>
+    <string name="food_app">Food Nutrition Database</string>
+    <string name="launch_movie">Launch Movie Info</string>
+    <string name="launch_food">Launch Food Database</string>
+    <string name="info_menu">Info</string>
+    <string name="authors">Authors: Sean McAdam Malcolm Tsai</string>
+    <string name="food_author">Author: Sean McAdam</string>
+    <string name="main_activity_help">Select an Image on the toolbar to launch the activity</string>
+    <string name="help_food_activity">Select an Image on the toolbar to launch the activity</string>
+    <string name="main_title">Welcome to Final Project App</string>
+    <string name="title_activity_food_database">FoodDatabase</string>
+    <string name="search_button">Search</string>
+    <string name="search_food_hint">Search Food</string>
+    <string name="favorites_button">Favorites</string>
+    <string name="title_activity_search_food">SearchFood</string>
+    <string name="search_hint_food">search food</string>
+    <string name="foodInfo">Food Information</string>
+
+
+</resources>
